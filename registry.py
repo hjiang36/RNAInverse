@@ -55,4 +55,4 @@ class Registry(dict):
 # Declare a few global registry
 DATA_SETS = Registry()
 LOSSES = Registry()
-MODELS = Registry({"registry_name", "Models"})
+MODELS = Registry({"registry_name": "Models"})

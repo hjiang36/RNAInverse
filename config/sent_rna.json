@@ -6,7 +6,7 @@
       "model_parameters": {
         "model_path": "<to be added>"
       },
-      "data_loader": "eterna_complete_ss",
+      "data_loader": "eterna",
       "data_loader_parameters": {
         "data_path": "<to be added>"
       },

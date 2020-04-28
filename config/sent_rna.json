@@ -1,0 +1,27 @@
+{
+  "name": "sent_rna",
+  "train_ops": [
+    {
+      "model": "sent_rna",
+      "model_parameters": {
+        "model_path": "<to be added>"
+      },
+      "data_loader": "eterna_complete_ss",
+      "data_loader_parameters": {
+        "data_path": "<to be added>"
+      },
+      "loss": "cross_entropy_loss",
+      "learning_rate": 1e-5,
+      "n_epochs": 100
+    }
+  ],
+  "test_ops": [
+    {
+      "model": "sent_rna",
+      "model_parameters": {
+        "model_path": "<to be added>"
+      },
+      "loss": "l2_loss"
+    }
+  ]
+}
